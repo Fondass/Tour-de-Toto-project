@@ -1,0 +1,602 @@
+
+p
+{
+   padding: 0;
+   margin: 0;
+   display: inline-block;
+}
+
+#homescreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 17%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#homelist
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#homelist li
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+#homelist li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#loginonmenu
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.emptybar
+{
+    height: 35%;
+    display: block;
+}
+
+.emptybar2
+{
+    height: 35px;
+    display: block;
+}
+
+#loginscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#usernameinput
+{
+    
+}
+
+#adminscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 17%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#newmenu
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+    
+#etapeconclusion
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+    
+#adminlist
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#adminlist li
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#adminlist li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#newscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#etapescreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#newridersscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 17%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#newriderslist
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#newriderslist li
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#newriderslist li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#riderscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#teamscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#countryscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#newtourscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 17%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#backbuttonnewtour
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-right: 9%;
+    margin-top: -7.8%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#backbuttonnewtour a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#compscreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#scorescreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#backbuttonscores
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-right: 10%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#backbuttonscores a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#scoreslidescreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#topscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#topreplacescreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#userscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 17%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#userlist
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#userlist li
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#userlist li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#joinscreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#allscorescreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#summaryscreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    display: none;
+}
+
+#registerscreen
+{
+    height: 170px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: left;
+    border-top: none;
+    display: none;
+}
+
+#etape2screen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#etape2list
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#etape2list li
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#etape2list li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#etapesubmit
+{
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    /*border is optional*/
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#etape3screen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: left;
+    border-top: none;
+}
+
+#colom1
+{
+    display: inline-block;
+}
+
+#colom2
+{
+    display: inline-block;
+    float: right;
+}
+
+#riderlistscreen
+{
+    height: 100px;
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 8%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#riderlistlist
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#riderlistlist li
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#riderlistlist li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#riderlistsubmit
+{
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    /*border is optional*/
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#riderlistingscreen
+{
+    border: solid 0.5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 0;
+    overflow: hidden;
+    text-align: left;
+    border-top: none;
+}
+
+#adminnewlist
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: -10%;
+}
+
+#adminnewlist li
+{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#adminnewlist li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+}
